@@ -27,3 +27,13 @@ tag. Cut focused windows with Mod-y, and paste them with Mod-p.
   case: user minimizes only one window per tag most of the time).
 
 * Source: [unminimize.sh](unminimize.sh)
+
+
+## Easy-access alternative tag
+
+* Description: Associate another tag (postfixed with "bis") to a master tag.
+  User can toggle between "bis" tag and master tag with Mod+b, or move window between them with Mod+Shift+b.
+
+* Use case example: allow to easily associate a task-specific browser to a task-specific tag.
+
+* Source: [bis.sh](bis.sh)
