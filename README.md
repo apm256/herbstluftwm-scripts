@@ -60,6 +60,6 @@ tag. Cut focused windows with `Mod-y`, and paste them with `Mod-p`.
 
 * Attribute: The mark of a tag is available (i.e. to be displayed on the panel) with the following attribute: `tags.*.my_mark`
 
-* Use case example: allow easy access to dynmaic tags created with `addtag.sh`.
+* Use case example: allow easy access to dynamic tags created with `addtag.sh`.
 
 * Source: [mark-tags.sh](mark-tags.sh)
