@@ -49,3 +49,17 @@ tag. Cut focused windows with `Mod-y`, and paste them with `Mod-p`.
 * Warning: requires `dmenu`, or `get_name` function needs to be adapted.
 
 * Source: [addtag.sh](addtag.sh)
+
+
+## VIM-like marks for tags
+
+* Description: Implement VIM-like marks for tags. One-letter mark can be
+  set/unset on a tag (`Mod+Alt+[a-z]`/`Mod+Alt+Shift+[a-z]`); marked tags are focusable
+  with `Mod+Ctrl+[a-z]`; and windows are movable to a marked tag with
+  `Mod+Ctrl+Shift+[a-z]`.
+
+* Attribute: The mark of a tag is available (i.e. to be displayed on the panel) with the following attribute: `tags.*.my_mark`
+
+* Use case example: allow easy access to dynmaic tags created with `addtag.sh`.
+
+* Source: [mark-tags.sh](mark-tags.sh)
