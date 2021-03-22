@@ -37,3 +37,13 @@ tag. Cut focused windows with Mod-y, and paste them with Mod-p.
 * Use case example: easily associate a task-specific browser to a task-specific tag.
 
 * Source: [bis.sh](bis.sh)
+
+
+## Dynamic tags
+
+* Description: Create/remove new tags in addition to those defined in `autostart`.
+  Mod-n creates a tag; Mod-Shift-n removes it.
+  When removing a tag, all remaining windows are merged to a dedicated `merge` tag. "Bis" tags from the `bis.sh` scripts are removed too, if exist.
+  To avoid accidental removing of static tags, Mod-Shift-n only has an effect with tags created with this script.
+
+* Source: [addtag.sh](addtag.sh)
