@@ -63,3 +63,21 @@ tag. Cut focused windows with `Mod-y`, and paste them with `Mod-p`.
 * Use case example: allow easy access to dynamic tags created with `addtag.sh`.
 
 * Source: [mark-tags.sh](mark-tags.sh)
+
+
+## "Sticky" mpv and mplayer
+
+* Warning: This script is not 100% robust (especially in regard with frame manipulation);
+  it works fine for all my use cases, but may requires adaptations for other users.
+
+* Description: Allow mpv and mplayer windows to become "sticky", i.e. visible
+  in all tags, either in a "sticky frame" on the right, or in in full tag using
+  the [maximized.sh script](https://github.com/herbstluftwm/herbstluftwm/blob/master/scripts/maximize.sh).
+
+  `Mod-v` toggles on/off the sticky frame.
+
+* Hook: Emit the "video_sticky_changed" hook when toggling sticky frame.
+
+* Attribute: `tags.*.my_videoframe` attribute could be queried, for instance to display the "sticky frame" status on a panel.
+
+* Source: [videosticky.sh](videosticky.sh)
