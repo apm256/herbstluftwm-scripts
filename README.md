@@ -1,5 +1,9 @@
 # herbstluftwm-scripts
 
+A script collection for [herbstluftwm](https://github.com/herbstluftwm/herbstluftwm).
+Scripts can be called from `autostart`, or just tested by running them.
+
+
 ## Cut and paste windows
 
 * Description: Allow to easily move multiple windows at once from source tags to a target
