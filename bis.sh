@@ -8,7 +8,7 @@ Mod=${Mod:-Mod4}
 GobisKey=b
 MoveToGoKey=Shift-b
 
-# get the absolute path of this script, to call it when minimizing
+# get the absolute path of this script
 SCRIPT_PATH=$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )/$(basename "${BASH_SOURCE[0]}")
 
 hc() { "${herbstclient_command[@]:-herbstclient}" "$@" ;}
