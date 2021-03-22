@@ -71,7 +71,7 @@ tag. Cut focused windows with `Mod-y`, and paste them with `Mod-p`.
   it works fine for all my use cases, but may requires adaptations for other users.
 
 * Description: Allow mpv and mplayer windows to become "sticky", i.e. visible
-  in all tags, either in a "sticky frame" on the right, or in in full tag using
+  in all tags, either in a "sticky frame" on the right, or in in fullscreen using
   the [maximized.sh script](https://github.com/herbstluftwm/herbstluftwm/blob/master/scripts/maximize.sh).
 
   `Mod-v` toggles on/off the sticky frame.
