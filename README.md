@@ -14,12 +14,12 @@ tag. Cut focused windows with `Mod-y`, and paste them with `Mod-p`.
 
 ## Switch previously focused window in a tag
 
-* Description: Allow to switch previously window in a given tag. Previous windows are remembered on tag switches.
+* Description: Allow to switch previously focused window in a given tag. Previous windows are remembered on tag switches.
 
 * Source: [lastwin.sh](lastwin.sh)
 
 
-## Minimize and unminimize windows
+## Minimize and unminimize windows (as a toggle)
 
 * Description: Allow to minimize and un-minimize clients in a LIFO
   way (last minimized client will be un-minimized first).
@@ -27,6 +27,8 @@ tag. Cut focused windows with `Mod-y`, and paste them with `Mod-p`.
   case: user minimizes only one window per tag most of the time).
 
 * Source: [unminimize.sh](unminimize.sh)
+
+* Note: the same script without the toggle-like feature is available [here](https://github.com/herbstluftwm/herbstluftwm/blob/master/scripts/unminimize.sh).
 
 
 ## Easy-access alternative tag
