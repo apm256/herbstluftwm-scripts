@@ -1,7 +1,7 @@
 # herbstluftwm-scripts
 
 A script collection for [herbstluftwm](https://github.com/herbstluftwm/herbstluftwm).
-Scripts can be called from `autostart`, or just tested by running them.
+Scripts can be called from `autostart`, or just tested by running them (`chmod +x the-script.sh ; ./the-script.sh`).
 
 
 ## Cut and paste windows
