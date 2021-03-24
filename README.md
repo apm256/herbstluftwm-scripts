@@ -36,9 +36,12 @@ tag. Cut focused windows with `Mod-y`, and paste them with `Mod-p`.
 * Description: Associate another tag (postfixed with "bis") to a master tag.
   User can toggle between "bis" tag and master tag with `Mod+b`, or move window between them with `Mod+Shift+b`.
 
-* Use case example: easily associate a task-specific browser to a task-specific tag.
+* Use case example: associate a task-specific browser to a task-specific tag.
 
 * Source: [bis.sh](bis.sh)
+
+* Note: panel should be customized to not display tags ending with "bis" (for instance by defining a custom
+  `tag_renderer` method in [barpyrus](https://github.com/t-wissmann/barpyrus)).
 
 
 ## Dynamic tags
