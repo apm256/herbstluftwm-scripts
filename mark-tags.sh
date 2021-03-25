@@ -61,7 +61,7 @@ search_mark() {
 }
 
 use_mark() {
-  search_mark $1 "or : and M compare tags.focus.index = INDEX M use_previous : use_index"
+  search_mark $1 "or : and '?' compare tags.focus.index = INDEX '?' use_previous : use_index"
 }
 
 move_mark() {
